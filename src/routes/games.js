@@ -4,8 +4,8 @@ const {
   diceRolling,
   rockPaperScissors,
   updateGameProbability,
-} = require("../controllers/games");
-const { authMiddleware, adminMiddleware } = require("../middleware/auth");
+} = require("../controllers/games.js");
+const { authMiddleware, adminMiddleware } = require("../middleware/auth.js");
 
 const gamesRouter = express.Router();
 

@@ -49,13 +49,13 @@ io.on("connection", (socket) => {
 });
 
 // Routes
-const userRouter = require("./routes/user");
+const userRouter = require("./routes/user.js");
 app.use("/api", userRouter);
 
-const gameSettingsRouter = require("./routes/gameSettings");
+const gameSettingsRouter = require("./routes/gameSettings.js");
 app.use("/api", gameSettingsRouter);
 
-const gamesRouter = require("./routes/games");
+const gamesRouter = require("./routes/games.js");
 app.use("/api/games", gamesRouter);
 
 server.listen(PORT, () =>

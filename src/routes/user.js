@@ -11,7 +11,7 @@ const {
   transferSaldoReferido,
 } = require("../controllers/user.js");
 const { login, authMiddleware } = require("../middleware/auth.js");
-const User = require("../models/User.js");
+const User = require("../models/user.js");
 
 // Rutas para usuarios
 userRouter.get("/users", getAllUsers);

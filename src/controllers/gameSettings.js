@@ -1,4 +1,4 @@
-const GameSettings = require("../models/GameSettings");
+const GameSettings = require("../models/gameSettings.js");
 
 // Obtener configuraciones de todos los juegos
 const getAllGameSettings = async (req, res) => {

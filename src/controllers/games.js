@@ -1,6 +1,6 @@
-const User = require("../models/User");
-const GameSettings = require("../models/GameSettings");
-const { io } = require("../app");
+const User = require("../models/user.js");
+const GameSettings = require("../models/gameSettings.js");
+const { io } = require("../app.js");
 
 const headAndTail = async (req, res) => {
   const { phoneNumber, amount, choice } = req.body;
