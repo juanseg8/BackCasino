@@ -1,7 +1,7 @@
 // Importa el modelo de usuario
 
 const bcrypt = require("bcrypt");
-const User = require("../models/User");
+const User = require("../models/user");
 
 // Traer todos los usuarios
 const getAllUsers = async (req, res) => {
